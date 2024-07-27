@@ -100,8 +100,20 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "buildTarget": "project-t:build:production",
+            "repo": "https://github.com/nmvinicius/project-t.git",
+            "email": "nunesmartinsvinicius@gmail.com",
+            "name": "Vinícius Nunes Martins"
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "8034e85f-466e-488a-af9c-8dd81a9b075c"
   }
 }
